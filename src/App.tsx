@@ -1,8 +1,10 @@
+import { RTFDemo } from "./examples/rtf-demo/rtfDemo";
+
 function App() {
 	return (
-		<>
-			<p className='text-3xl'>Tailwind test!</p>
-		</>
+		<main className='h-screen'>
+			<RTFDemo />
+		</main>
 	);
 }
 
